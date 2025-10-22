@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But keep these files
+!video_analyzer.py
+!requirements.txt
+!.env
+!README.md
+!.gitignore
+
+# Keep directories structure
+!*/
