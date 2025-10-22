@@ -30,31 +30,16 @@ cp .env.example .env
 
 2. 编辑 `.env` 文件，添加必要的API密钥：
 ```
-OPENAI_API_KEY=your_openai_api_key_here
+API_key=your_bailian_api_key_here
 # 其他必要的配置...
 ```
 
 ## 使用方法
 
-### 基本用法
-
-```python
-from video_analyzer import VideoAnalyzer
-
-# 创建分析器实例
-analyzer = VideoAnalyzer()
-
-# 分析视频文件
-result = analyzer.analyze_video("path/to/your/video.mp4")
-
-# 查看结果
-print(result)
-```
-
 ### 命令行使用
 
 ```bash
-python video_analyzer.py --input "video_file.mp4" --output "analysis_result.json"
+python video_analyzer.py
 ```
 
 ## 支持的视频格式

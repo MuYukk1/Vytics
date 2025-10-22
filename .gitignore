@@ -4,7 +4,7 @@
 # But keep these files
 !video_analyzer.py
 !requirements.txt
-!.env
+!.env.example
 !README.md
 !.gitignore
 
